@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="anchorepane" stylesheets="@../../../style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.wt.pta.MainsController">
+   <children>
+      <Label layoutX="6.0" layoutY="27.0" />
+      <ListView fx:id="list" layoutX="6.0" layoutY="203.0" onMouseClicked="#opene" prefHeight="190.0" prefWidth="278.0" styleClass="listview" stylesheets="@../../../style.css" />
+      <Button layoutY="2.0" mnemonicParsing="false" onAction="#ret" prefHeight="25.0" prefWidth="110.0" text="return" />
+      <ImageView fx:id="imag" fitHeight="190.0" fitWidth="307.0" layoutX="286.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true" />
+      <TextArea fx:id="ta" editable="false" layoutX="285.0" layoutY="202.0" prefHeight="190.0" prefWidth="313.0" styleClass="textarea" stylesheets="@../../../style.css" />
+       
+   </children>
+</AnchorPane>

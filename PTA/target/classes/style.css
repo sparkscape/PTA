@@ -1,0 +1,24 @@
+.wt{
+-fx-background-color: #d1ebd4;
+}
+#tf{
+-fx-background-color: #e4d1eb;
+}
+#history{
+-fx-background-color: #e4d1eb;
+}
+.button{
+-fx-background-color: #e4d1eb;
+}
+.anchorepane{
+-fx-background-color: #765bbd;
+}
+.listview{
+-fx-background-color: #bf7558;
+}
+.textarea{
+-fx-background-color: #a8ba56;
+}
+.listview{
+-fx-font-background-color: #bf7558;
+}
